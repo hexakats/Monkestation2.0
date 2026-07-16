@@ -138,6 +138,7 @@
 	can_adjust = FALSE //There wasnt an adjustable sprite anyways
 	armor_type = /datum/armor/tacticool_black
 	has_sensor = HAS_SENSORS	//Actually has sensors, to balance the new lack of armor
+	unique_reskin = null
 
 // Donation reward for Thedragmeme
 
