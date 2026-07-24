@@ -1,7 +1,9 @@
 /obj/item/clothing/gloves/combat
 	name = "combat gloves"
 	desc = "These tactical gloves are fireproof and electrically insulated."
-	icon_state = "black"
+	icon_state = "combat"
+	worn_icon = 'monkestation/code/modules/blueshift/icons/mob/clothing/hands.dmi'
+	icon = 'monkestation/code/modules/blueshift/icons/obj/clothing/gloves.dmi'
 	greyscale_colors = "#2f2e31"
 	siemens_coefficient = 0
 	strip_delay = 80
@@ -22,5 +24,7 @@
 	name = "enchanted gloves"
 	desc = "These gloves have been enchanted with a spell that makes them electrically insulated and fireproof."
 	icon_state = "wizard"
+	worn_icon = null
+	icon = 'icons/obj/clothing/gloves.dmi'
 	greyscale_colors = null
 	inhand_icon_state = null

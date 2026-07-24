@@ -441,6 +441,14 @@
 	. = ..()
 	atom_storage.max_slots = 6
 
+/obj/item/storage/belt/security/webbing/ds
+	name = "brig officer webbing"
+	icon = 'monkestation/code/modules/blueshift/icons/obj/clothing/belts.dmi'
+	worn_icon = 'monkestation/code/modules/blueshift/icons/mob/clothing/belt.dmi'
+	icon_state = "webbingds"
+	worn_icon_state = "webbingds"
+	unique_reskin = null
+
 /obj/item/storage/belt/mining
 	name = "explorer's webbing"
 	desc = "A versatile chest rig, cherished by miners and hunters alike."

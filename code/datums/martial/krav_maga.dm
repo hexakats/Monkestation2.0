@@ -191,7 +191,9 @@
 /obj/item/clothing/gloves/krav_maga/combatglovesplus
 	name = "combat gloves plus"
 	desc = "These tactical gloves are fireproof and electrically insulated, and through the use of nanochip technology will teach you the martial art of krav maga."
-	icon_state = "black"
+	icon = 'monkestation/code/modules/blueshift/icons/obj/clothing/gloves.dmi'
+	worn_icon = 'monkestation/code/modules/blueshift/icons/mob/clothing/hands.dmi'
+	icon_state = "combat"
 	greyscale_colors = "#2f2e31"
 	siemens_coefficient = 0
 	strip_delay = 80
@@ -199,6 +201,11 @@
 	max_heat_protection_temperature = GLOVES_MAX_TEMP_PROTECT
 	resistance_flags = NONE
 	armor_type = /datum/armor/krav_maga_combatglovesplus
+
+/obj/item/clothing/gloves/krav_maga/combatglovesplus/maa
+	name = "master at arms' combat gloves"
+	desc = "A set of combat gloves plus emblazoned with red knuckles, showing dedication to the trade while also hiding any blood left after use."
+	icon_state = "maagloves"
 
 /datum/armor/krav_maga_combatglovesplus
 	bio = 90

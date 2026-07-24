@@ -1,7 +1,9 @@
 /obj/item/clothing/shoes/combat //basic syndicate combat boots for nuke ops and mob corpses
 	name = "combat boots"
 	desc = "High speed, low drag combat boots."
-	icon_state = "jackboots"
+	icon_state = "combat"
+	icon = 'monkestation/code/modules/blueshift/icons/obj/clothing/shoes.dmi'
+	worn_icon = 'monkestation/code/modules/blueshift/icons/mob/clothing/feet.dmi'
 	inhand_icon_state = "jackboots"
 	supports_variations_flags = CLOTHING_DIGITIGRADE_MASK
 	armor_type = /datum/armor/shoes_combat
